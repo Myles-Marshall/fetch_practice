@@ -1,0 +1,9 @@
+body > div {
+    display: flex;
+    font-family: monospace;
+    justify-content: center;
+}
+
+#coordinate-container {
+    gap: 2%;
+}
