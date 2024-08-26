@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="coordinate-container">
+        <h1 id="latitude"></h1>
+        <h1 id="longitude"></h1>
+    </div>
+
+    <div id="weather-button-contain">
+        <button id="weather-button" onclick="getWeatherData()">Get Weather Forecast</button>
+    </div>
+
+    <div id="location-contain">
+        <h1 id="location"></h1>
+    </div>
+
+    <div id="forecast-contain">
+        <p id="test-display"></p>
+    </div>
+
+    <script src="./fetchWeather.js"></script>
+</body>
+</html>
